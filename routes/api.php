@@ -15,6 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
-    Route::get('user-info', [\App\Http\Controllers\API\UserController::class, 'info']);
+    Route::post('user-info', [\App\Http\Controllers\API\UserController::class, 'info']);
 });
 
