@@ -15,7 +15,4 @@ yarn-error.log
 /.vscode
 
 # Project exclude paths
-/storage/debugbar/
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/views/*
+/storage/
