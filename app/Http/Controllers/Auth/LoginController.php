@@ -38,8 +38,5 @@ class LoginController extends Controller
         $this->middleware('guest')->except('logout');
     }
 
-    public function authenticated(){
-        return response('OK');
-    }
 
 }
